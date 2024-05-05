@@ -1,0 +1,857 @@
+2024-05-05 13:08:23.2232 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-05 13:08:23.5366 Debug Hosting starting 
+2024-05-05 13:08:23.6642 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-05 13:08:23.6642 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-05 13:08:23.6857 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-05 13:08:23.7018 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-05 13:08:23.7018 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-05 13:08:23.7120 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-05 13:08:23.7120 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:08:23.7120 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-05 13:08:23.7120 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:08:23.7120 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-05 13:08:23.7120 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-05 13:08:23.7120 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-05 13:08:23.7229 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-05 13:08:24.1755 Warn Overriding address(es) 'http://api.rscode.site:8888'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-05-05 13:08:24.1891 Info Now listening on: http://[::]:8888 
+2024-05-05 13:08:24.1891 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-05 13:08:24.1891 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-05 13:08:24.1891 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-05 13:08:24.1891 Info Application started. Press Ctrl+C to shut down. 
+2024-05-05 13:08:24.1891 Info Hosting environment: Development 
+2024-05-05 13:08:24.1891 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-05 13:08:24.1891 Debug Hosting started 
+2024-05-05 13:08:24.5351 Debug Connection id "0HN3CUENCRNSE" accepted. 
+2024-05-05 13:08:24.5351 Debug Connection id "0HN3CUENCRNSE" started. 
+2024-05-05 13:08:24.5721 Debug Connection id "0HN3CUENCRNSF" accepted. 
+2024-05-05 13:08:24.5721 Debug Connection id "0HN3CUENCRNSF" started. 
+2024-05-05 13:09:25.9270 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-05 13:09:26.0494 Debug Hosting starting 
+2024-05-05 13:09:26.0885 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-05 13:09:26.0885 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-05 13:09:26.0988 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-05 13:09:26.0988 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-05 13:09:26.0988 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-05 13:09:26.1186 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-05 13:09:26.1186 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:09:26.1186 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-05 13:09:26.1186 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:09:26.1186 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-05 13:09:26.1301 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-05 13:09:26.1301 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-05 13:09:26.1301 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-05 13:09:26.3696 Info Now listening on: https://localhost:7229 
+2024-05-05 13:09:26.3696 Info Now listening on: http://localhost:5181 
+2024-05-05 13:09:26.3696 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-05 13:09:26.3696 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-05 13:09:26.3696 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-05 13:09:26.3696 Info Application started. Press Ctrl+C to shut down. 
+2024-05-05 13:09:26.3696 Info Hosting environment: Development 
+2024-05-05 13:09:26.3696 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-05 13:09:26.3696 Debug Hosting started 
+2024-05-05 13:09:26.7797 Debug Connection id "0HN3CUF9UF956" received FIN. 
+2024-05-05 13:09:26.7797 Debug Connection id "0HN3CUF9UF957" received FIN. 
+2024-05-05 13:09:26.7852 Debug Connection id "0HN3CUF9UF956" accepted. 
+2024-05-05 13:09:26.7852 Debug Connection id "0HN3CUF9UF957" accepted. 
+2024-05-05 13:09:26.7852 Debug Connection id "0HN3CUF9UF956" started. 
+2024-05-05 13:09:26.7852 Debug Connection id "0HN3CUF9UF957" started. 
+2024-05-05 13:09:26.8105 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 13:09:26.8105 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 13:09:26.9313 Debug Connection id "0HN3CUF9UF956" stopped. 
+2024-05-05 13:09:26.9313 Debug Connection id "0HN3CUF9UF957" stopped. 
+2024-05-05 13:09:26.9313 Debug Connection id "0HN3CUF9UF956" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 13:09:26.9313 Debug Connection id "0HN3CUF9UF957" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 13:09:26.9479 Debug Connection id "0HN3CUF9UF958" accepted. 
+2024-05-05 13:09:26.9479 Debug Connection id "0HN3CUF9UF958" started. 
+2024-05-05 13:09:26.9479 Debug Connection id "0HN3CUF9UF959" accepted. 
+2024-05-05 13:09:26.9479 Debug Connection id "0HN3CUF9UF959" started. 
+2024-05-05 13:09:26.9850 Debug Connection id "0HN3CUF9UF959" received FIN. 
+2024-05-05 13:09:26.9929 Debug Connection 0HN3CUF9UF958 established using the following protocol: Tls12 
+2024-05-05 13:09:26.9929 Debug Connection 0HN3CUF9UF959 established using the following protocol: Tls12 
+2024-05-05 13:09:27.0472 Debug Connection id "0HN3CUF9UF959" is closed. The last processed stream ID was 0. 
+2024-05-05 13:09:27.0472 Debug Connection id "0HN3CUF9UF959" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 13:09:27.0525 Debug The connection queue processing loop for 0HN3CUF9UF959 completed. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 13:09:27.0525 Debug Connection id "0HN3CUF9UF959" stopped. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:09:27.0525 Trace Connection id "0HN3CUF9UF958" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:09:27.0809 Trace Connection id "0HN3CUF9UF958" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 13:09:27.1360 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - 
+2024-05-05 13:09:27.3133 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-05 13:09:27.3133 Trace All hosts are allowed. 
+2024-05-05 13:09:27.7270 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-05 13:09:27.9959 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-05 13:09:27.9959 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-05 13:09:27.9959 Trace Connection id "0HN3CUF9UF958" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-05 13:09:28.0082 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-05 13:09:28.0082 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 1 with length 996 and flags NONE. 
+2024-05-05 13:09:28.0082 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-05 13:09:28.0082 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-05 13:09:28.0082 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-05 13:09:28.0082 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-05 13:09:28.0210 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - - - 200 - text/html;charset=utf-8 887.6389ms 
+2024-05-05 13:09:28.0210 Trace Connection id "0HN3CUF9UF958" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:09:28.0210 Trace Connection id "0HN3CUF9UF958" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:09:28.0210 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - 
+2024-05-05 13:09:28.0210 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-05 13:09:28.0210 Trace Connection id "0HN3CUF9UF958" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2024-05-05 13:09:28.0210 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 3 with length 13768 and flags NONE. 
+2024-05-05 13:09:28.0210 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-05 13:09:28.0210 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 200 13768 application/javascript;+charset=utf-8 4.6047ms 
+2024-05-05 13:09:28.0659 Trace Connection id "0HN3CUF9UF958" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2024-05-05 13:09:28.0659 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-05 13:09:28.0688 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-05 13:09:28.0688 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.4268ms 
+2024-05-05 13:09:28.2056 Trace Connection id "0HN3CUF9UF958" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:09:28.2056 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - 
+2024-05-05 13:09:28.2056 Trace All hosts are allowed. 
+2024-05-05 13:09:28.3485 Trace Connection id "0HN3CUF9UF958" sending HEADERS frame for stream ID 7 with length 65 and flags END_HEADERS. 
+2024-05-05 13:09:28.3485 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 13:09:28.3485 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 13:09:28.3485 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 7 with length 10315 and flags NONE. 
+2024-05-05 13:09:28.3485 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-05 13:09:28.3485 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 144.7042ms 
+2024-05-05 13:09:50.3928 Trace Connection id "0HN3CUF9UF958" received HEADERS frame for stream ID 9 with length 74 and flags END_HEADERS, PRIORITY. 
+2024-05-05 13:09:50.3928 Trace Connection id "0HN3CUF9UF958" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2024-05-05 13:09:50.3928 Info Request starting HTTP/2 POST https://localhost:7229/api/Auth/Login application/json 50 
+2024-05-05 13:09:50.3928 Trace Connection id "0HN3CUF9UF958" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2024-05-05 13:09:50.3928 Trace All hosts are allowed. 
+2024-05-05 13:09:50.3928 Trace Connection id "0HN3CUF9UF958" received DATA frame for stream ID 9 with length 50 and flags END_STREAM. 
+2024-05-05 13:09:50.4310 Debug POST requests are not supported 
+2024-05-05 13:09:50.4310 Debug POST requests are not supported 
+2024-05-05 13:09:51.0982 Debug AuthenticationScheme: Bearer was not authenticated. 
+2024-05-05 13:09:51.1186 Debug 1 candidate(s) found for the request path '/api/Auth/Login' 
+2024-05-05 13:09:51.1186 Debug Endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login' 
+2024-05-05 13:09:51.1186 Debug Request matched endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:09:51.1186 Info Executing endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:09:51.1469 Info Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.ApplicationAuth.LoginDto) on controller ProductionAppApi.Controllers.AuthController (ProductionAppApi). 
+2024-05-05 13:09:51.1469 Debug Execution plan of authorization filters (in the following order): None 
+2024-05-05 13:09:51.1469 Debug Execution plan of resource filters (in the following order): None 
+2024-05-05 13:09:51.1469 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-05 13:09:51.1469 Debug Execution plan of exception filters (in the following order): None 
+2024-05-05 13:09:51.1469 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-05 13:09:51.1469 Debug Executing controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 13:09:51.2455 Debug Executed controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 13:09:51.2910 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' ... 
+2024-05-05 13:09:51.2910 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' using the name '' in request data ... 
+2024-05-05 13:09:51.2910 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-05-05 13:09:51.2910 Debug Connection id "0HN3CUF9UF958", Request id "0HN3CUF9UF958:00000009": started reading request body. 
+2024-05-05 13:09:51.2910 Debug Connection id "0HN3CUF9UF958", Request id "0HN3CUF9UF958:00000009": done reading request body. 
+2024-05-05 13:09:51.3013 Debug JSON input formatter succeeded, deserializing to type 'Application.ApplicationAuth.LoginDto' 
+2024-05-05 13:09:51.3013 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:09:51.3013 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:09:51.3013 Debug Attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' ... 
+2024-05-05 13:09:51.3778 Debug Done attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:09:51.3792 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:09:51.3792 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:09:51.3792 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:09:51.3792 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:09:51.3792 Info Executing action method ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) - Validation state: Valid 
+2024-05-05 13:09:51.3792 Trace Executing action method ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) with arguments (Application.ApplicationAuth.LoginDto) 
+2024-05-05 13:09:51.9685 Debug The property 'Material.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name. 
+2024-05-05 13:09:52.1385 Debug Entity Framework Core 7.0.18 initialized 'ProductionAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.18' with options: MigrationsAssembly=ProductionMaterialApi  
+2024-05-05 13:09:52.3993 Debug Compiling query expression: 
+'DbSet<User>()
+    .Include(x => x.Role)
+    .FirstOrDefault(x => x.Username == __userData_Username_0)' 
+2024-05-05 13:09:52.4488 Debug Including navigation: 'User.Role'. 
+2024-05-05 13:09:52.5864 Debug Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreationDate (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.IsOnline (bool) Required, 3], [Property: User.Password (string) Required, 4], [Property: User.RoleId (int) Required FK Index, 5], [Property: User.UserConfirmed (bool) Required, 6], [Property: User.Username (string) Required, 7] }
+                1 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: Role.Name (string) Required, 9] }
+            SELECT TOP(1) u.Id, u.CreationDate, u.Email, u.IsOnline, u.Password, u.RoleId, u.UserConfirmed, u.Username, r.Id, r.Name
+            FROM Users AS u
+            INNER JOIN Roles AS r ON u.RoleId == r.Id
+            WHERE u.Username == @__userData_Username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Infrastructure.Persistance.ProductionAppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-05-05 13:09:52.6191 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-05-05 13:09:52.6191 Debug Creating DbConnection. 
+2024-05-05 13:09:52.6408 Debug Created DbConnection. (17ms). 
+2024-05-05 13:09:52.6468 Debug Created DbCommand for 'ExecuteReader' (28ms). 
+2024-05-05 13:09:52.6468 Debug Initialized DbCommand for 'ExecuteReader' (38ms). 
+2024-05-05 13:09:52.6468 Debug Opening connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:53.8149 Debug Opened connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:53.8228 Debug Executing DbCommand [Parameters=[@__userData_Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationDate], [u].[Email], [u].[IsOnline], [u].[Password], [u].[RoleId], [u].[UserConfirmed], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__userData_Username_0 
+2024-05-05 13:09:54.0097 Info Executed DbCommand (187ms) [Parameters=[@__userData_Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationDate], [u].[Email], [u].[IsOnline], [u].[Password], [u].[RoleId], [u].[UserConfirmed], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__userData_Username_0 
+2024-05-05 13:09:54.0235 Debug Closing data reader to 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.0235 Debug A data reader for 'ProductionMaterialDb' on server 'api.rscode.site' is being disposed after spending 15ms reading results. 
+2024-05-05 13:09:54.0235 Debug Closing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.0357 Debug Closed connection to database 'ProductionMaterialDb' on server 'api.rscode.site' (4ms). 
+2024-05-05 13:09:54.1398 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:09:54.1398 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:09:54.1398 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:09:54.1398 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:09:54.1398 Info Executed action ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) in 2993.3911ms 
+2024-05-05 13:09:54.1451 Info Executed endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:09:54.2347 Error Invalid username or password. System.Exception: Invalid username or password.
+   at Infrastructure.Repository.AuthRepository.Login(User userData) in E:\Api\ProductionMaterialAPI\Infrastructure\Repository\AuthRepository.cs:line 48
+   at Application.Services.AuthService.Login(User userData) in E:\Api\ProductionMaterialAPI\Application\Services\AuthService.cs:line 27
+   at ProductionAppApi.Controllers.AuthController.Login(LoginDto userData) in E:\Api\ProductionMaterialAPI\ProductionMaterialApi\Controllers\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in E:\Api\ProductionMaterialAPI\Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-05-05 13:09:54.2661 Debug '"ProductionAppDbContext"' generated a value for the property '"Id"."EventLogs"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:09:54.3132 Debug Context 'ProductionAppDbContext' started tracking 'EventLogs' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:09:54.3164 Debug SaveChanges starting for 'ProductionAppDbContext'. 
+2024-05-05 13:09:54.3164 Debug DetectChanges starting for 'ProductionAppDbContext'. 
+2024-05-05 13:09:54.3164 Debug DetectChanges completed for 'ProductionAppDbContext'. 
+2024-05-05 13:09:54.3751 Debug Opening connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.3751 Debug Opened connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.3751 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-05-05 13:09:54.3751 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-05-05 13:09:54.3751 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-05-05 13:09:54.3790 Debug Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventLogs] ([Id], [Date], [Exception], [Message])
+VALUES (@p0, @p1, @p2, @p3); 
+2024-05-05 13:09:54.4797 Info Executed DbCommand (101ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventLogs] ([Id], [Date], [Exception], [Message])
+VALUES (@p0, @p1, @p2, @p3); 
+2024-05-05 13:09:54.4797 Debug Closing data reader to 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.4797 Debug A data reader for 'ProductionMaterialDb' on server 'api.rscode.site' is being disposed after spending 2ms reading results. 
+2024-05-05 13:09:54.4797 Debug Closing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.4797 Debug Closed connection to database 'ProductionMaterialDb' on server 'api.rscode.site' (0ms). 
+2024-05-05 13:09:54.4893 Debug An entity of type 'EventLogs' tracked by 'ProductionAppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:09:54.4893 Debug SaveChanges completed for 'ProductionAppDbContext' with 1 entities written to the database. 
+2024-05-05 13:09:54.6369 Trace Connection id "0HN3CUF9UF958" sending HEADERS frame for stream ID 9 with length 33 and flags END_HEADERS. 
+2024-05-05 13:09:54.6369 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 9 with length 82 and flags NONE. 
+2024-05-05 13:09:54.6369 Trace Connection id "0HN3CUF9UF958" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-05-05 13:09:54.6369 Debug 'ProductionAppDbContext' disposed. 
+2024-05-05 13:09:54.6369 Trace Connection id "0HN3CUF9UF958" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:09:54.6369 Debug Disposing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:09:54.6369 Debug Disposed connection to database '' on server '' (1ms). 
+2024-05-05 13:09:54.6369 Info Request finished HTTP/2 POST https://localhost:7229/api/Auth/Login application/json 50 - 500 - - 4251.3456ms 
+2024-05-05 13:10:33.7221 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-05 13:10:33.8646 Debug Hosting starting 
+2024-05-05 13:10:33.9000 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-05 13:10:33.9000 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-05 13:10:33.9000 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-05 13:10:33.9140 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-05 13:10:33.9140 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-05 13:10:33.9140 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-05 13:10:33.9260 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:10:33.9260 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-05 13:10:33.9260 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 13:10:33.9260 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-05 13:10:33.9260 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-05 13:10:33.9260 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-05 13:10:33.9260 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-05 13:10:34.1146 Info Now listening on: https://localhost:7229 
+2024-05-05 13:10:34.1146 Info Now listening on: http://localhost:5181 
+2024-05-05 13:10:34.1146 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-05 13:10:34.1146 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-05 13:10:34.1146 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-05 13:10:34.1146 Info Application started. Press Ctrl+C to shut down. 
+2024-05-05 13:10:34.1146 Info Hosting environment: Development 
+2024-05-05 13:10:34.1146 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-05 13:10:34.1146 Debug Hosting started 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUP" received FIN. 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUO" received FIN. 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUO" accepted. 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUP" accepted. 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUP" started. 
+2024-05-05 13:10:34.3811 Debug Connection id "0HN3CUFU35JUO" started. 
+2024-05-05 13:10:34.4113 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 13:10:34.4113 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 13:10:34.4422 Debug Connection id "0HN3CUFU35JUO" stopped. 
+2024-05-05 13:10:34.4422 Debug Connection id "0HN3CUFU35JUP" stopped. 
+2024-05-05 13:10:34.4422 Debug Connection id "0HN3CUFU35JUO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 13:10:34.4422 Debug Connection id "0HN3CUFU35JUP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 13:10:34.5542 Debug Connection id "0HN3CUFU35JUQ" accepted. 
+2024-05-05 13:10:34.5542 Debug Connection id "0HN3CUFU35JUQ" started. 
+2024-05-05 13:10:34.5936 Debug Connection 0HN3CUFU35JUQ established using the following protocol: Tls12 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:10:34.6230 Trace Connection id "0HN3CUFU35JUQ" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:10:34.6439 Trace Connection id "0HN3CUFU35JUQ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 13:10:34.6627 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - 
+2024-05-05 13:10:34.7656 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-05 13:10:34.7656 Trace All hosts are allowed. 
+2024-05-05 13:10:34.8853 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-05 13:10:35.0315 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-05 13:10:35.0315 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-05 13:10:35.0359 Trace Connection id "0HN3CUFU35JUQ" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-05 13:10:35.0359 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-05 13:10:35.0359 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 1 with length 996 and flags NONE. 
+2024-05-05 13:10:35.0523 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-05 13:10:35.0523 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-05 13:10:35.0523 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-05 13:10:35.0523 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-05 13:10:35.0523 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - - - 200 - text/html;charset=utf-8 399.7178ms 
+2024-05-05 13:10:35.0523 Trace Connection id "0HN3CUFU35JUQ" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:10:35.0523 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-05 13:10:35.0523 Trace Connection id "0HN3CUFU35JUQ" sending HEADERS frame for stream ID 3 with length 90 and flags END_HEADERS. 
+2024-05-05 13:10:35.0523 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 3 with length 13768 and flags NONE. 
+2024-05-05 13:10:35.0712 Trace Connection id "0HN3CUFU35JUQ" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:10:35.0712 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-05 13:10:35.0712 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 200 13768 application/javascript;+charset=utf-8 11.1931ms 
+2024-05-05 13:10:35.0712 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-05 13:10:35.1050 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-05 13:10:35.1050 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.4106ms 
+2024-05-05 13:10:35.2871 Trace Connection id "0HN3CUFU35JUQ" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 13:10:35.2871 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - 
+2024-05-05 13:10:35.2871 Trace All hosts are allowed. 
+2024-05-05 13:10:35.4398 Trace Connection id "0HN3CUFU35JUQ" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2024-05-05 13:10:35.4398 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 13:10:35.4398 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 13:10:35.4398 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 7 with length 10315 and flags NONE. 
+2024-05-05 13:10:35.4421 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-05 13:10:35.4421 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.4033ms 
+2024-05-05 13:10:45.6940 Trace Connection id "0HN3CUFU35JUQ" received HEADERS frame for stream ID 9 with length 74 and flags END_HEADERS, PRIORITY. 
+2024-05-05 13:10:45.6940 Trace Connection id "0HN3CUFU35JUQ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2024-05-05 13:10:45.6940 Info Request starting HTTP/2 POST https://localhost:7229/api/Auth/Login application/json 50 
+2024-05-05 13:10:45.6940 Trace Connection id "0HN3CUFU35JUQ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2024-05-05 13:10:45.6940 Trace All hosts are allowed. 
+2024-05-05 13:10:45.6940 Trace Connection id "0HN3CUFU35JUQ" received DATA frame for stream ID 9 with length 50 and flags END_STREAM. 
+2024-05-05 13:10:45.6940 Debug POST requests are not supported 
+2024-05-05 13:10:45.6940 Debug POST requests are not supported 
+2024-05-05 13:10:45.7578 Debug AuthenticationScheme: Bearer was not authenticated. 
+2024-05-05 13:10:45.7780 Debug 1 candidate(s) found for the request path '/api/Auth/Login' 
+2024-05-05 13:10:45.7780 Debug Endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' with route pattern 'api/Auth/Login' is valid for the request path '/api/Auth/Login' 
+2024-05-05 13:10:45.7780 Debug Request matched endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:10:45.7780 Info Executing endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:10:45.8027 Info Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Application.ApplicationAuth.LoginDto) on controller ProductionAppApi.Controllers.AuthController (ProductionAppApi). 
+2024-05-05 13:10:45.8027 Debug Execution plan of authorization filters (in the following order): None 
+2024-05-05 13:10:45.8027 Debug Execution plan of resource filters (in the following order): None 
+2024-05-05 13:10:45.8027 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-05 13:10:45.8027 Debug Execution plan of exception filters (in the following order): None 
+2024-05-05 13:10:45.8027 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-05 13:10:45.8027 Debug Executing controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 13:10:45.8956 Debug Executed controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 13:10:45.8956 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' ... 
+2024-05-05 13:10:45.8956 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' using the name '' in request data ... 
+2024-05-05 13:10:45.8956 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-05-05 13:10:45.9133 Debug Connection id "0HN3CUFU35JUQ", Request id "0HN3CUFU35JUQ:00000009": started reading request body. 
+2024-05-05 13:10:45.9133 Debug Connection id "0HN3CUFU35JUQ", Request id "0HN3CUFU35JUQ:00000009": done reading request body. 
+2024-05-05 13:10:45.9133 Debug JSON input formatter succeeded, deserializing to type 'Application.ApplicationAuth.LoginDto' 
+2024-05-05 13:10:45.9133 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:10:45.9133 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:10:45.9133 Debug Attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.LoginDto' ... 
+2024-05-05 13:10:45.9554 Debug Done attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.LoginDto'. 
+2024-05-05 13:10:45.9554 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:10:45.9554 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:10:45.9554 Trace Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:10:45.9554 Trace Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:10:45.9595 Info Executing action method ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) - Validation state: Valid 
+2024-05-05 13:10:45.9595 Trace Executing action method ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) with arguments (Application.ApplicationAuth.LoginDto) 
+2024-05-05 13:10:46.4883 Debug The property 'Material.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name. 
+2024-05-05 13:10:46.6467 Debug Entity Framework Core 7.0.18 initialized 'ProductionAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.18' with options: MigrationsAssembly=ProductionMaterialApi  
+2024-05-05 13:10:46.7284 Debug Compiling query expression: 
+'DbSet<User>()
+    .Include(x => x.Role)
+    .FirstOrDefault(x => x.Username == __userData_Username_0)' 
+2024-05-05 13:10:46.7811 Debug Including navigation: 'User.Role'. 
+2024-05-05 13:10:46.9136 Debug Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: new SingleQueryingEnumerable<User>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: User.Id (Guid) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.CreationDate (DateTime) Required, 1], [Property: User.Email (string) Required, 2], [Property: User.IsOnline (bool) Required, 3], [Property: User.Password (string) Required, 4], [Property: User.RoleId (int) Required FK Index, 5], [Property: User.UserConfirmed (bool) Required, 6], [Property: User.Username (string) Required, 7] }
+                1 -> Dictionary<IProperty, int> { [Property: Role.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 8], [Property: Role.Name (string) Required, 9] }
+            SELECT TOP(1) u.Id, u.CreationDate, u.Email, u.IsOnline, u.Password, u.RoleId, u.UserConfirmed, u.Username, r.Id, r.Name
+            FROM Users AS u
+            INNER JOIN Roles AS r ON u.RoleId == r.Id
+            WHERE u.Username == @__userData_Username_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+        Infrastructure.Persistance.ProductionAppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2024-05-05 13:10:46.9479 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-05-05 13:10:46.9479 Debug Creating DbConnection. 
+2024-05-05 13:10:46.9663 Debug Created DbConnection. (14ms). 
+2024-05-05 13:10:46.9739 Debug Created DbCommand for 'ExecuteReader' (24ms). 
+2024-05-05 13:10:46.9739 Debug Initialized DbCommand for 'ExecuteReader' (35ms). 
+2024-05-05 13:10:46.9739 Debug Opening connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.4353 Debug Opened connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.4431 Debug Executing DbCommand [Parameters=[@__userData_Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationDate], [u].[Email], [u].[IsOnline], [u].[Password], [u].[RoleId], [u].[UserConfirmed], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__userData_Username_0 
+2024-05-05 13:10:47.5352 Info Executed DbCommand (94ms) [Parameters=[@__userData_Username_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreationDate], [u].[Email], [u].[IsOnline], [u].[Password], [u].[RoleId], [u].[UserConfirmed], [u].[Username], [r].[Id], [r].[Name]
+FROM [Users] AS [u]
+INNER JOIN [Roles] AS [r] ON [u].[RoleId] = [r].[Id]
+WHERE [u].[Username] = @__userData_Username_0 
+2024-05-05 13:10:47.5468 Debug Closing data reader to 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.5524 Debug A data reader for 'ProductionMaterialDb' on server 'api.rscode.site' is being disposed after spending 13ms reading results. 
+2024-05-05 13:10:47.5524 Debug Closing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.5524 Debug Closed connection to database 'ProductionMaterialDb' on server 'api.rscode.site' (4ms). 
+2024-05-05 13:10:47.6560 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:10:47.6560 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2024-05-05 13:10:47.6560 Trace Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:10:47.6560 Trace Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2024-05-05 13:10:47.6560 Info Executed action ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi) in 1853.2867ms 
+2024-05-05 13:10:47.6560 Info Executed endpoint 'ProductionAppApi.Controllers.AuthController.Login (ProductionAppApi)' 
+2024-05-05 13:10:47.7394 Error Invalid username or password. System.Exception: Invalid username or password.
+   at Infrastructure.Repository.AuthRepository.Login(User userData) in E:\Api\ProductionMaterialAPI\Infrastructure\Repository\AuthRepository.cs:line 48
+   at Application.Services.AuthService.Login(User userData) in E:\Api\ProductionMaterialAPI\Application\Services\AuthService.cs:line 27
+   at ProductionAppApi.Controllers.AuthController.Login(LoginDto userData) in E:\Api\ProductionMaterialAPI\ProductionMaterialApi\Controllers\AuthController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in E:\Api\ProductionMaterialAPI\Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-05-05 13:10:47.7683 Debug '"ProductionAppDbContext"' generated a value for the property '"Id"."EventLogs"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:10:47.8085 Debug Context 'ProductionAppDbContext' started tracking 'EventLogs' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:10:47.8085 Debug SaveChanges starting for 'ProductionAppDbContext'. 
+2024-05-05 13:10:47.8085 Debug DetectChanges starting for 'ProductionAppDbContext'. 
+2024-05-05 13:10:47.8218 Debug DetectChanges completed for 'ProductionAppDbContext'. 
+2024-05-05 13:10:47.8714 Debug Opening connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.8714 Debug Opened connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.8714 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-05-05 13:10:47.8714 Debug Created DbCommand for 'ExecuteReader' (0ms). 
+2024-05-05 13:10:47.8714 Debug Initialized DbCommand for 'ExecuteReader' (0ms). 
+2024-05-05 13:10:47.8714 Debug Executing DbCommand [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventLogs] ([Id], [Date], [Exception], [Message])
+VALUES (@p0, @p1, @p2, @p3); 
+2024-05-05 13:10:47.9351 Info Executed DbCommand (60ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [EventLogs] ([Id], [Date], [Exception], [Message])
+VALUES (@p0, @p1, @p2, @p3); 
+2024-05-05 13:10:47.9351 Debug Closing data reader to 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.9351 Debug A data reader for 'ProductionMaterialDb' on server 'api.rscode.site' is being disposed after spending 5ms reading results. 
+2024-05-05 13:10:47.9433 Debug Closing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:47.9433 Debug Closed connection to database 'ProductionMaterialDb' on server 'api.rscode.site' (0ms). 
+2024-05-05 13:10:47.9433 Debug An entity of type 'EventLogs' tracked by 'ProductionAppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2024-05-05 13:10:47.9433 Debug SaveChanges completed for 'ProductionAppDbContext' with 1 entities written to the database. 
+2024-05-05 13:10:48.0257 Trace Connection id "0HN3CUFU35JUQ" sending HEADERS frame for stream ID 9 with length 51 and flags END_HEADERS. 
+2024-05-05 13:10:48.0257 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 9 with length 82 and flags NONE. 
+2024-05-05 13:10:48.0257 Trace Connection id "0HN3CUFU35JUQ" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-05-05 13:10:48.0257 Debug 'ProductionAppDbContext' disposed. 
+2024-05-05 13:10:48.0257 Trace Connection id "0HN3CUFU35JUQ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 13:10:48.0257 Debug Disposing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 13:10:48.0257 Debug Disposed connection to database '' on server '' (1ms). 
+2024-05-05 13:10:48.0257 Info Request finished HTTP/2 POST https://localhost:7229/api/Auth/Login application/json 50 - 500 - application/json 2338.1157ms 
+2024-05-05 14:25:28.9935 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-05 14:25:29.1051 Debug Hosting starting 
+2024-05-05 14:25:29.1362 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-05 14:25:29.1362 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-05 14:25:29.1362 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-05 14:25:29.1479 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-05 14:25:29.1479 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-05 14:25:29.1479 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-05 14:25:29.1479 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 14:25:29.1479 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-05 14:25:29.1613 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 14:25:29.1613 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-05 14:25:29.1613 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-05 14:25:29.1613 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-05 14:25:29.1613 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-05 14:25:29.3583 Info Now listening on: https://localhost:7229 
+2024-05-05 14:25:29.3583 Info Now listening on: http://localhost:5181 
+2024-05-05 14:25:29.3583 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-05 14:25:29.3583 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-05 14:25:29.3583 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-05 14:25:29.3583 Info Application started. Press Ctrl+C to shut down. 
+2024-05-05 14:25:29.3583 Info Hosting environment: Development 
+2024-05-05 14:25:29.3583 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-05 14:25:29.3583 Debug Hosting started 
+2024-05-05 14:25:29.7032 Debug Connection id "0HN3CVPPPSV0O" received FIN. 
+2024-05-05 14:25:29.7032 Debug Connection id "0HN3CVPPPSV0N" received FIN. 
+2024-05-05 14:25:29.7093 Debug Connection id "0HN3CVPPPSV0O" accepted. 
+2024-05-05 14:25:29.7093 Debug Connection id "0HN3CVPPPSV0N" accepted. 
+2024-05-05 14:25:29.7093 Debug Connection id "0HN3CVPPPSV0N" started. 
+2024-05-05 14:25:29.7093 Debug Connection id "0HN3CVPPPSV0O" started. 
+2024-05-05 14:25:29.7301 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 14:25:29.7301 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 14:25:29.7592 Debug Connection id "0HN3CVPPPSV0O" stopped. 
+2024-05-05 14:25:29.7592 Debug Connection id "0HN3CVPPPSV0N" stopped. 
+2024-05-05 14:25:29.7592 Debug Connection id "0HN3CVPPPSV0O" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 14:25:29.7592 Debug Connection id "0HN3CVPPPSV0N" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 14:25:30.1801 Debug Connection id "0HN3CVPPPSV0P" accepted. 
+2024-05-05 14:25:30.1801 Debug Connection id "0HN3CVPPPSV0P" started. 
+2024-05-05 14:25:30.2197 Debug Connection 0HN3CVPPPSV0P established using the following protocol: Tls12 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 14:25:30.2490 Trace Connection id "0HN3CVPPPSV0P" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:25:30.2679 Trace Connection id "0HN3CVPPPSV0P" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 14:25:30.2856 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - 
+2024-05-05 14:25:30.3835 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-05 14:25:30.3835 Trace All hosts are allowed. 
+2024-05-05 14:25:30.5112 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-05 14:25:30.6573 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-05 14:25:30.6573 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-05 14:25:30.6630 Trace Connection id "0HN3CVPPPSV0P" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-05 14:25:30.6630 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-05 14:25:30.6630 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 1 with length 996 and flags NONE. 
+2024-05-05 14:25:30.6778 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-05 14:25:30.6778 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-05 14:25:30.6778 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-05 14:25:30.6778 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-05 14:25:30.6778 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - - - 200 - text/html;charset=utf-8 402.8694ms 
+2024-05-05 14:25:30.6778 Trace Connection id "0HN3CVPPPSV0P" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:25:30.6929 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-05 14:25:30.6929 Trace Connection id "0HN3CVPPPSV0P" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:25:30.6929 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - 
+2024-05-05 14:25:30.6929 Trace Connection id "0HN3CVPPPSV0P" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2024-05-05 14:25:30.6929 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 3 with length 13768 and flags NONE. 
+2024-05-05 14:25:30.6929 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-05 14:25:30.6929 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 200 13768 application/javascript;+charset=utf-8 11.0786ms 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-05 14:25:30.7276 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-05 14:25:30.7276 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.1287ms 
+2024-05-05 14:25:30.7863 Trace Connection id "0HN3CVPPPSV0P" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:25:30.7863 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - 
+2024-05-05 14:25:30.7863 Trace All hosts are allowed. 
+2024-05-05 14:25:30.9260 Trace Connection id "0HN3CVPPPSV0P" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2024-05-05 14:25:30.9260 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 14:25:30.9260 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 14:25:30.9260 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 7 with length 10315 and flags NONE. 
+2024-05-05 14:25:30.9280 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-05 14:25:30.9280 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.2799ms 
+2024-05-05 14:25:39.8501 Trace Connection id "0HN3CVPPPSV0P" received HEADERS frame for stream ID 9 with length 76 and flags END_HEADERS, PRIORITY. 
+2024-05-05 14:25:39.8501 Trace Connection id "0HN3CVPPPSV0P" received DATA frame for stream ID 9 with length 71 and flags END_STREAM. 
+2024-05-05 14:25:39.8501 Info Request starting HTTP/2 POST https://localhost:7229/api/Auth/Register application/json 71 
+2024-05-05 14:25:39.8501 Trace All hosts are allowed. 
+2024-05-05 14:25:39.8501 Debug POST requests are not supported 
+2024-05-05 14:25:39.8501 Debug POST requests are not supported 
+2024-05-05 14:25:39.9130 Debug AuthenticationScheme: Bearer was not authenticated. 
+2024-05-05 14:25:39.9324 Debug 1 candidate(s) found for the request path '/api/Auth/Register' 
+2024-05-05 14:25:39.9324 Debug Endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' with route pattern 'api/Auth/Register' is valid for the request path '/api/Auth/Register' 
+2024-05-05 14:25:39.9324 Debug Request matched endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:25:39.9324 Info Executing endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:25:39.9553 Info Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.ApplicationAuth.RegisterDto) on controller ProductionAppApi.Controllers.AuthController (ProductionAppApi). 
+2024-05-05 14:25:39.9553 Debug Execution plan of authorization filters (in the following order): None 
+2024-05-05 14:25:39.9553 Debug Execution plan of resource filters (in the following order): None 
+2024-05-05 14:25:39.9553 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-05 14:25:39.9553 Debug Execution plan of exception filters (in the following order): None 
+2024-05-05 14:25:39.9553 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-05 14:25:39.9580 Debug Executing controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 14:25:40.0506 Debug Executed controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 14:25:40.0618 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' ... 
+2024-05-05 14:25:40.0618 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' using the name '' in request data ... 
+2024-05-05 14:25:40.0618 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-05-05 14:25:40.0685 Debug Connection id "0HN3CVPPPSV0P", Request id "0HN3CVPPPSV0P:00000009": started reading request body. 
+2024-05-05 14:25:40.0685 Debug Connection id "0HN3CVPPPSV0P", Request id "0HN3CVPPPSV0P:00000009": done reading request body. 
+2024-05-05 14:25:40.0685 Debug JSON input formatter succeeded, deserializing to type 'Application.ApplicationAuth.RegisterDto' 
+2024-05-05 14:25:40.0685 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto'. 
+2024-05-05 14:25:40.0685 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto'. 
+2024-05-05 14:25:40.0685 Debug Attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' ... 
+2024-05-05 14:25:40.6752 Debug The property 'Material.Discriminator' was created in shadow state because there are no eligible CLR members with a matching name. 
+2024-05-05 14:25:40.8372 Debug Entity Framework Core 7.0.18 initialized 'ProductionAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.18' with options: MigrationsAssembly=ProductionMaterialApi  
+2024-05-05 14:25:40.8828 Debug Compiling query expression: 
+'DbSet<User>()
+    .Any(x => x.Username == __value_0)' 
+2024-05-05 14:25:41.0292 Debug Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Users AS u
+            WHERE u.Username == @__value_0)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    Infrastructure.Persistance.ProductionAppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2024-05-05 14:25:41.0611 Debug Creating DbCommand for 'ExecuteReader'. 
+2024-05-05 14:25:41.0611 Debug Creating DbConnection. 
+2024-05-05 14:25:41.0794 Debug Created DbConnection. (14ms). 
+2024-05-05 14:25:41.0868 Debug Created DbCommand for 'ExecuteReader' (24ms). 
+2024-05-05 14:25:41.0868 Debug Initialized DbCommand for 'ExecuteReader' (36ms). 
+2024-05-05 14:25:41.0980 Debug Opening connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 14:25:41.5831 Debug Opened connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 14:25:41.5831 Debug Executing DbCommand [Parameters=[@__value_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__value_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2024-05-05 14:25:41.6729 Info Executed DbCommand (85ms) [Parameters=[@__value_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]
+        WHERE [u].[Username] = @__value_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2024-05-05 14:25:41.6825 Debug Closing data reader to 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 14:25:41.6825 Debug A data reader for 'ProductionMaterialDb' on server 'api.rscode.site' is being disposed after spending 11ms reading results. 
+2024-05-05 14:25:41.6825 Debug Closing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 14:25:41.6966 Debug Closed connection to database 'ProductionMaterialDb' on server 'api.rscode.site' (5ms). 
+2024-05-05 14:25:45.3602 Info Executed action ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi) in 5401.1036ms 
+2024-05-05 14:25:45.3602 Info Executed endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:25:45.4464 Trace Connection id "0HN3CVPPPSV0P" sending HEADERS frame for stream ID 9 with length 51 and flags END_HEADERS. 
+2024-05-05 14:25:45.4464 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 9 with length 75 and flags NONE. 
+2024-05-05 14:25:45.4464 Trace Connection id "0HN3CVPPPSV0P" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-05-05 14:25:45.4464 Debug 'ProductionAppDbContext' disposed. 
+2024-05-05 14:25:45.4464 Trace Connection id "0HN3CVPPPSV0P" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 14:25:45.4464 Debug Disposing connection to database 'ProductionMaterialDb' on server 'api.rscode.site'. 
+2024-05-05 14:25:45.4464 Debug Disposed connection to database '' on server '' (2ms). 
+2024-05-05 14:25:45.4464 Info Request finished HTTP/2 POST https://localhost:7229/api/Auth/Register application/json 71 - 400 - application/json 5602.7121ms 
+2024-05-05 14:31:48.5537 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-05 14:31:48.6482 Debug Hosting starting 
+2024-05-05 14:31:48.6740 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-05 14:31:48.6815 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-05 14:31:48.6815 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-05 14:31:48.6815 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-05 14:31:48.6815 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-05 14:31:48.6956 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-05 14:31:48.6956 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 14:31:48.6956 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-05 14:31:48.6956 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-05 14:31:48.6956 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-05 14:31:48.6956 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-05 14:31:48.6956 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-05 14:31:48.6956 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-05 14:31:48.8814 Info Now listening on: https://localhost:7229 
+2024-05-05 14:31:48.8814 Info Now listening on: http://localhost:5181 
+2024-05-05 14:31:48.8814 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-05 14:31:48.8814 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-05 14:31:48.8814 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-05 14:31:48.8814 Info Application started. Press Ctrl+C to shut down. 
+2024-05-05 14:31:48.8814 Info Hosting environment: Development 
+2024-05-05 14:31:48.8814 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-05 14:31:48.8814 Debug Hosting started 
+2024-05-05 14:31:48.8814 Debug Connection id "0HN3CVTAQ2K27" received FIN. 
+2024-05-05 14:31:48.8814 Debug Connection id "0HN3CVTAQ2K27" accepted. 
+2024-05-05 14:31:48.8814 Debug Connection id "0HN3CVTAQ2K27" started. 
+2024-05-05 14:31:48.9106 Debug Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-05 14:31:48.9403 Debug Connection id "0HN3CVTAQ2K27" stopped. 
+2024-05-05 14:31:48.9425 Debug Connection id "0HN3CVTAQ2K27" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-05 14:31:49.0407 Debug Connection id "0HN3CVTAQ2K28" accepted. 
+2024-05-05 14:31:49.0407 Debug Connection id "0HN3CVTAQ2K28" started. 
+2024-05-05 14:31:49.0978 Debug Connection 0HN3CVTAQ2K28 established using the following protocol: Tls12 
+2024-05-05 14:31:49.1259 Trace Connection id "0HN3CVTAQ2K28" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 14:31:49.1259 Trace Connection id "0HN3CVTAQ2K28" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 14:31:49.1259 Trace Connection id "0HN3CVTAQ2K28" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-05 14:31:49.1259 Trace Connection id "0HN3CVTAQ2K28" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 14:31:49.1291 Trace Connection id "0HN3CVTAQ2K28" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-05 14:31:49.1291 Trace Connection id "0HN3CVTAQ2K28" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:31:49.1468 Trace Connection id "0HN3CVTAQ2K28" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-05 14:31:49.1631 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - 
+2024-05-05 14:31:49.3167 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-05 14:31:49.3167 Trace All hosts are allowed. 
+2024-05-05 14:31:49.4424 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-05 14:31:49.5849 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-05 14:31:49.5849 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-05 14:31:49.5849 Trace Connection id "0HN3CVTAQ2K28" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-05 14:31:49.5849 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-05 14:31:49.6019 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 1 with length 996 and flags NONE. 
+2024-05-05 14:31:49.6019 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-05 14:31:49.6019 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-05 14:31:49.6019 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-05 14:31:49.6019 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-05 14:31:49.6019 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - - - 200 - text/html;charset=utf-8 450.0633ms 
+2024-05-05 14:31:49.6151 Trace Connection id "0HN3CVTAQ2K28" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:31:49.6151 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - 
+2024-05-05 14:31:49.6151 Trace Connection id "0HN3CVTAQ2K28" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:31:49.6151 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - 
+2024-05-05 14:31:49.6151 Trace Connection id "0HN3CVTAQ2K28" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2024-05-05 14:31:49.6151 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 3 with length 13768 and flags NONE. 
+2024-05-05 14:31:49.6151 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-05 14:31:49.6151 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 200 13768 application/javascript;+charset=utf-8 5.6784ms 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending HEADERS frame for stream ID 5 with length 149 and flags END_HEADERS. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6537 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-05 14:31:49.6601 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-05 14:31:49.6601 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.6514ms 
+2024-05-05 14:31:49.7263 Trace Connection id "0HN3CVTAQ2K28" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-05 14:31:49.7263 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - 
+2024-05-05 14:31:49.7263 Trace All hosts are allowed. 
+2024-05-05 14:31:49.8844 Trace Connection id "0HN3CVTAQ2K28" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2024-05-05 14:31:49.8844 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 14:31:49.8844 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-05 14:31:49.8844 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 7 with length 10315 and flags NONE. 
+2024-05-05 14:31:49.8844 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-05 14:31:49.8844 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 160.5101ms 
+2024-05-05 14:31:53.2683 Trace Connection id "0HN3CVTAQ2K28" received HEADERS frame for stream ID 9 with length 76 and flags END_HEADERS, PRIORITY. 
+2024-05-05 14:31:53.2683 Trace Connection id "0HN3CVTAQ2K28" received DATA frame for stream ID 9 with length 71 and flags END_STREAM. 
+2024-05-05 14:31:53.2683 Info Request starting HTTP/2 POST https://localhost:7229/api/Auth/Register application/json 71 
+2024-05-05 14:31:53.2693 Trace All hosts are allowed. 
+2024-05-05 14:31:53.2693 Debug POST requests are not supported 
+2024-05-05 14:31:53.2693 Debug POST requests are not supported 
+2024-05-05 14:31:53.3313 Debug AuthenticationScheme: Bearer was not authenticated. 
+2024-05-05 14:31:53.3506 Debug 1 candidate(s) found for the request path '/api/Auth/Register' 
+2024-05-05 14:31:53.3506 Debug Endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' with route pattern 'api/Auth/Register' is valid for the request path '/api/Auth/Register' 
+2024-05-05 14:31:53.3506 Debug Request matched endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:31:53.3506 Info Executing endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:31:53.3760 Info Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(Application.ApplicationAuth.RegisterDto) on controller ProductionAppApi.Controllers.AuthController (ProductionAppApi). 
+2024-05-05 14:31:53.3760 Debug Execution plan of authorization filters (in the following order): None 
+2024-05-05 14:31:53.3760 Debug Execution plan of resource filters (in the following order): None 
+2024-05-05 14:31:53.3760 Debug Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2024-05-05 14:31:53.3760 Debug Execution plan of exception filters (in the following order): None 
+2024-05-05 14:31:53.3760 Debug Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2024-05-05 14:31:53.3760 Debug Executing controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 14:31:53.4665 Debug Executed controller factory for controller ProductionAppApi.Controllers.AuthController (ProductionAppApi) 
+2024-05-05 14:31:53.4754 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' ... 
+2024-05-05 14:31:53.4754 Debug Attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' using the name '' in request data ... 
+2024-05-05 14:31:53.4754 Debug Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2024-05-05 14:31:53.4754 Debug Connection id "0HN3CVTAQ2K28", Request id "0HN3CVTAQ2K28:00000009": started reading request body. 
+2024-05-05 14:31:53.4754 Debug Connection id "0HN3CVTAQ2K28", Request id "0HN3CVTAQ2K28:00000009": done reading request body. 
+2024-05-05 14:31:53.4754 Debug JSON input formatter succeeded, deserializing to type 'Application.ApplicationAuth.RegisterDto' 
+2024-05-05 14:31:53.4754 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto'. 
+2024-05-05 14:31:53.4754 Debug Done attempting to bind parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto'. 
+2024-05-05 14:31:53.4754 Debug Attempting to validate the bound parameter 'userData' of type 'Application.ApplicationAuth.RegisterDto' ... 
+2024-05-05 14:32:05.8869 Info Executed action ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi) in 12506.4212ms 
+2024-05-05 14:32:05.8869 Info Executed endpoint 'ProductionAppApi.Controllers.AuthController.Register (ProductionAppApi)' 
+2024-05-05 14:32:05.9799 Trace Connection id "0HN3CVTAQ2K28" sending HEADERS frame for stream ID 9 with length 51 and flags END_HEADERS. 
+2024-05-05 14:32:05.9799 Info Request finished HTTP/2 POST https://localhost:7229/api/Auth/Register application/json 71 - 400 - application/json 12711.0565ms 
+2024-05-05 14:32:05.9799 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 9 with length 73 and flags NONE. 
+2024-05-05 14:32:05.9799 Trace Connection id "0HN3CVTAQ2K28" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2024-05-05 14:32:05.9799 Trace Connection id "0HN3CVTAQ2K28" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 

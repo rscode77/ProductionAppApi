@@ -1,0 +1,346 @@
+2024-05-04 19:06:09.1814 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 19:06:09.4498 Debug Hosting starting 
+2024-05-04 19:06:09.5548 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 19:06:09.5632 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 19:06:09.5790 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 19:06:09.5955 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 19:06:09.5955 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 19:06:09.5955 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 19:06:09.5955 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 19:06:09.6103 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 19:06:09.6103 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 19:06:09.6103 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 19:06:09.6103 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 19:06:09.6103 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 19:06:09.6103 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 19:06:10.1103 Info Now listening on: https://localhost:7229 
+2024-05-04 19:06:10.1103 Info Now listening on: http://localhost:5181 
+2024-05-04 19:06:10.1103 Debug Loaded hosting startup assembly ProductionMaterialApi 
+2024-05-04 19:06:10.1103 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-04 19:06:10.1103 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-04 19:06:10.1103 Info Application started. Press Ctrl+C to shut down. 
+2024-05-04 19:06:10.1103 Info Hosting environment: Development 
+2024-05-04 19:06:10.1103 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-04 19:06:10.1103 Debug Hosting started 
+2024-05-04 19:06:10.2515 Debug Connection id "0HN3CBHVF91ML" received FIN. 
+2024-05-04 19:06:10.2515 Debug Connection id "0HN3CBHVF91ML" accepted. 
+2024-05-04 19:06:10.2515 Debug Connection id "0HN3CBHVF91ML" started. 
+2024-05-04 19:06:10.2714 Debug Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 19:06:10.3787 Debug Connection id "0HN3CBHVF91ML" stopped. 
+2024-05-04 19:06:10.3787 Debug Connection id "0HN3CBHVF91ML" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 19:06:10.4073 Debug Connection id "0HN3CBHVF91MM" accepted. 
+2024-05-04 19:06:10.4073 Debug Connection id "0HN3CBHVF91MM" started. 
+2024-05-04 19:06:10.4073 Debug Connection id "0HN3CBHVF91MN" accepted. 
+2024-05-04 19:06:10.4073 Debug Connection id "0HN3CBHVF91MN" started. 
+2024-05-04 19:06:10.4423 Debug Connection id "0HN3CBHVF91MM" received FIN. 
+2024-05-04 19:06:10.4619 Debug Connection 0HN3CBHVF91MN established using the following protocol: Tls12 
+2024-05-04 19:06:10.4619 Debug Connection 0HN3CBHVF91MM established using the following protocol: Tls12 
+2024-05-04 19:06:10.5048 Debug Connection id "0HN3CBHVF91MM" is closed. The last processed stream ID was 0. 
+2024-05-04 19:06:10.5048 Debug Connection id "0HN3CBHVF91MM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-04 19:06:10.5048 Debug The connection queue processing loop for 0HN3CBHVF91MM completed. 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-04 19:06:10.5048 Debug Connection id "0HN3CBHVF91MM" stopped. 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-04 19:06:10.5048 Trace Connection id "0HN3CBHVF91MN" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:06:10.5272 Trace Connection id "0HN3CBHVF91MN" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-04 19:06:10.5666 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - - 
+2024-05-04 19:06:10.6864 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-04 19:06:10.6864 Trace All hosts are allowed. 
+2024-05-04 19:06:11.0219 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-04 19:06:11.1415 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-04 19:06:11.1415 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-04 19:06:11.1415 Trace Connection id "0HN3CBHVF91MN" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-04 19:06:11.1415 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-04 19:06:11.1415 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 1 with length 1001 and flags NONE. 
+2024-05-04 19:06:11.1415 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-04 19:06:11.1415 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-04 19:06:11.1563 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-04 19:06:11.1563 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 597.1411ms 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:06:11.1563 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 3 with length 13778 and flags NONE. 
+2024-05-04 19:06:11.1563 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 
+2024-05-04 19:06:11.1563 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-04 19:06:11.1563 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript;+charset=utf-8 5.7920ms 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending HEADERS frame for stream ID 5 with length 119 and flags END_HEADERS. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.1984 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-04 19:06:11.2032 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-04 19:06:11.2032 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 38.7254ms 
+2024-05-04 19:06:11.2567 Trace Connection id "0HN3CBHVF91MN" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:06:11.2567 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 
+2024-05-04 19:06:11.2567 Trace All hosts are allowed. 
+2024-05-04 19:06:11.3754 Trace Connection id "0HN3CBHVF91MN" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2024-05-04 19:06:11.3754 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-04 19:06:11.3754 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-04 19:06:11.3754 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 7 with length 10320 and flags NONE. 
+2024-05-04 19:06:11.3754 Trace Connection id "0HN3CBHVF91MN" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-04 19:06:11.3754 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 121.7818ms 
+2024-05-04 19:07:30.0286 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 19:07:30.1487 Debug Hosting starting 
+2024-05-04 19:07:30.2781 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 19:07:30.2857 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 19:07:30.2857 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 19:07:30.2857 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 19:07:30.2857 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 19:07:30.3044 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 19:07:30.3044 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 19:07:30.3044 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 19:07:30.3044 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 19:07:30.3044 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 19:07:30.3044 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 19:07:30.3130 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 19:07:30.3130 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 19:07:30.5033 Info Now listening on: https://localhost:7229 
+2024-05-04 19:07:30.5033 Info Now listening on: http://localhost:5181 
+2024-05-04 19:07:30.5033 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-04 19:07:30.5033 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-04 19:07:30.5033 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-04 19:07:30.5033 Info Application started. Press Ctrl+C to shut down. 
+2024-05-04 19:07:30.5033 Info Hosting environment: Development 
+2024-05-04 19:07:30.5033 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-04 19:07:30.5033 Debug Hosting started 
+2024-05-04 19:07:30.7327 Debug Connection id "0HN3CBINEPTJM" accepted. 
+2024-05-04 19:07:30.7327 Debug Connection id "0HN3CBINEPTJM" started. 
+2024-05-04 19:07:30.7417 Debug Connection id "0HN3CBINEPTJN" accepted. 
+2024-05-04 19:07:30.7417 Debug Connection id "0HN3CBINEPTJN" started. 
+2024-05-04 19:07:30.7588 Debug Connection id "0HN3CBINEPTJN" received FIN. 
+2024-05-04 19:07:30.7588 Debug Connection id "0HN3CBINEPTJM" received FIN. 
+2024-05-04 19:07:30.7696 Debug Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 19:07:30.7696 Debug Failed to authenticate HTTPS connection. System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 19:07:30.7967 Debug Connection id "0HN3CBINEPTJM" stopped. 
+2024-05-04 19:07:30.7967 Debug Connection id "0HN3CBINEPTJN" stopped. 
+2024-05-04 19:07:30.7967 Debug Connection id "0HN3CBINEPTJM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 19:07:30.7967 Debug Connection id "0HN3CBINEPTJN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 19:07:30.9330 Debug Connection id "0HN3CBINEPTJO" accepted. 
+2024-05-04 19:07:30.9330 Debug Connection id "0HN3CBINEPTJO" started. 
+2024-05-04 19:07:30.9761 Debug Connection 0HN3CBINEPTJO established using the following protocol: Tls12 
+2024-05-04 19:07:30.9981 Trace Connection id "0HN3CBINEPTJO" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-04 19:07:31.0009 Trace Connection id "0HN3CBINEPTJO" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-04 19:07:31.0009 Trace Connection id "0HN3CBINEPTJO" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2024-05-04 19:07:31.0009 Trace Connection id "0HN3CBINEPTJO" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-04 19:07:31.0009 Trace Connection id "0HN3CBINEPTJO" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2024-05-04 19:07:31.0009 Trace Connection id "0HN3CBINEPTJO" received HEADERS frame for stream ID 1 with length 486 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:07:31.0183 Trace Connection id "0HN3CBINEPTJO" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2024-05-04 19:07:31.0333 Info Request starting HTTP/2 GET https://localhost:7229/swagger/index.html - - - 
+2024-05-04 19:07:31.1198 Debug Wildcard detected, all requests with hosts will be allowed. 
+2024-05-04 19:07:31.1198 Trace All hosts are allowed. 
+2024-05-04 19:07:31.2393 Debug An 'IServiceProvider' was created for internal use by Entity Framework. 
+2024-05-04 19:07:31.3433 Debug Response markup is scheduled to include Browser Link script injection. 
+2024-05-04 19:07:31.3433 Debug Response markup is scheduled to include browser refresh script injection. 
+2024-05-04 19:07:31.3433 Trace Connection id "0HN3CBINEPTJO" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2024-05-04 19:07:31.3433 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 1 with length 4096 and flags NONE. 
+2024-05-04 19:07:31.3433 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 1 with length 996 and flags NONE. 
+2024-05-04 19:07:31.3433 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 1 with length 81 and flags NONE. 
+2024-05-04 19:07:31.3598 Debug Response markup was updated to include Browser Link script injection. 
+2024-05-04 19:07:31.3598 Debug Response markup was updated to include browser refresh script injection. 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2024-05-04 19:07:31.3598 Info Request finished HTTP/2 GET https://localhost:7229/swagger/index.html - 200 - text/html;charset=utf-8 336.3993ms 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" received HEADERS frame for stream ID 3 with length 115 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:07:31.3598 Info Request starting HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - - - 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" sending HEADERS frame for stream ID 3 with length 60 and flags END_HEADERS. 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 3 with length 13778 and flags NONE. 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" received HEADERS frame for stream ID 5 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:07:31.3598 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2024-05-04 19:07:31.3598 Info Request finished HTTP/2 GET https://localhost:7229/_framework/aspnetcore-browser-refresh.js - 200 13778 application/javascript;+charset=utf-8 4.6582ms 
+2024-05-04 19:07:31.3598 Info Request starting HTTP/2 GET https://localhost:7229/_vs/browserLink - - - 
+2024-05-04 19:07:31.4054 Trace Connection id "0HN3CBINEPTJO" sending HEADERS frame for stream ID 5 with length 149 and flags END_HEADERS. 
+2024-05-04 19:07:31.4054 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 9986 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 10240 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 160 and flags NONE. 
+2024-05-04 19:07:31.4079 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2024-05-04 19:07:31.4079 Info Request finished HTTP/2 GET https://localhost:7229/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 46.5627ms 
+2024-05-04 19:07:31.4775 Trace Connection id "0HN3CBINEPTJO" received HEADERS frame for stream ID 7 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2024-05-04 19:07:31.4775 Info Request starting HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - - - 
+2024-05-04 19:07:31.4775 Trace All hosts are allowed. 
+2024-05-04 19:07:31.6046 Trace Connection id "0HN3CBINEPTJO" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2024-05-04 19:07:31.6046 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-04 19:07:31.6046 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2024-05-04 19:07:31.6046 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 7 with length 10315 and flags NONE. 
+2024-05-04 19:07:31.6126 Trace Connection id "0HN3CBINEPTJO" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2024-05-04 19:07:31.6126 Info Request finished HTTP/2 GET https://localhost:7229/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 134.9367ms 
+2024-05-04 20:17:05.0383 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 20:17:05.3339 Debug Hosting starting 
+2024-05-04 20:17:05.4367 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 20:17:05.4447 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 20:17:05.4585 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 20:17:05.4790 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 20:17:05.4790 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 20:17:05.4910 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 20:17:05.4910 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:17:05.4910 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 20:17:05.4910 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:17:05.4910 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 20:17:05.4910 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 20:17:05.4910 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 20:17:05.4910 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 20:17:05.9938 Error Stopped program because of exception System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\etc\letsencrypt\live\api.rscode.site\fullchain.pem'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2Collection.ImportFromPemFile(String certPemFilePath)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Certificates.CertificateConfigLoader.LoadCertificate(CertificateConfig certInfo, String endpointName)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Load()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in E:\Api\ProductionMaterialAPI\ProductionMaterialApi\Program.cs:line 84
+2024-05-04 20:18:44.9850 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 20:18:45.0971 Debug Hosting starting 
+2024-05-04 20:18:45.1379 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 20:18:45.1467 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 20:18:45.1467 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 20:18:45.1467 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 20:18:45.1467 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 20:18:45.1681 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 20:18:45.1681 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:18:45.1681 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 20:18:45.1681 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:18:45.1795 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 20:18:45.1795 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 20:18:45.1795 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 20:18:45.1795 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 20:18:45.3345 Error Stopped program because of exception System.IO.DirectoryNotFoundException: Could not find a part of the path 'E:\etc\letsencrypt\live\api.rscode.site\fullchain.pem'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2Collection.ImportFromPemFile(String certPemFilePath)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Certificates.CertificateConfigLoader.LoadCertificate(CertificateConfig certInfo, String endpointName)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Load()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in E:\Api\ProductionMaterialAPI\ProductionMaterialApi\Program.cs:line 84
+2024-05-04 20:19:49.4308 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 20:19:49.5183 Debug Hosting starting 
+2024-05-04 20:19:49.5472 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 20:19:49.5546 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 20:19:49.5546 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 20:19:49.5546 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 20:19:49.5546 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 20:19:49.5693 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 20:19:49.5693 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:19:49.5693 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 20:19:49.5693 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:19:49.5693 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 20:19:49.5693 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 20:19:49.5693 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 20:19:49.5693 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 20:19:49.6969 Warn Overriding address(es) 'http://api.rscode.site:8888'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-05-04 20:19:49.7215 Info Now listening on: http://[::]:8888 
+2024-05-04 20:19:49.7215 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-04 20:19:49.7215 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-04 20:19:49.7215 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-04 20:19:49.7215 Info Application started. Press Ctrl+C to shut down. 
+2024-05-04 20:19:49.7215 Info Hosting environment: Development 
+2024-05-04 20:19:49.7215 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-04 20:19:49.7215 Debug Hosting started 
+2024-05-04 20:19:50.1759 Debug Connection id "0HN3CCR4MUKJ2" accepted. 
+2024-05-04 20:19:50.2152 Debug Connection id "0HN3CCR4MUKJ2" started. 
+2024-05-04 20:19:50.2152 Debug Connection id "0HN3CCR4MUKJ3" accepted. 
+2024-05-04 20:19:50.2152 Debug Connection id "0HN3CCR4MUKJ3" started. 
+2024-05-04 20:19:50.2518 Debug Connection id "0HN3CCR4MUKJ3" received FIN. 
+2024-05-04 20:19:50.2518 Debug Connection id "0HN3CCR4MUKJ2" received FIN. 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ2" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ3" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ2" disconnecting. 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ3" disconnecting. 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ3" stopped. 
+2024-05-04 20:19:50.2710 Debug Connection id "0HN3CCR4MUKJ2" stopped. 
+2024-05-04 20:20:55.5471 Debug Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2024-05-04 20:20:55.6633 Debug Hosting starting 
+2024-05-04 20:20:55.6908 Info User profile is available. Using 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2024-05-04 20:20:55.6969 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-6394b072-b848-4d24-a1a3-78e3eaed1f63.xml'. 
+2024-05-04 20:20:55.6969 Debug Reading data from file 'C:\Users\RSCODE\AppData\Local\ASP.NET\DataProtection-Keys\key-8313aa54-9031-414f-b184-3c1e07e13fe7.xml'. 
+2024-05-04 20:20:55.6969 Debug Found key {6394b072-b848-4d24-a1a3-78e3eaed1f63}. 
+2024-05-04 20:20:55.6969 Debug Found key {8313aa54-9031-414f-b184-3c1e07e13fe7}. 
+2024-05-04 20:20:55.7111 Debug Considering key {8313aa54-9031-414f-b184-3c1e07e13fe7} with expiration date 2024-06-06 13:28:43Z as default key. 
+2024-05-04 20:20:55.7111 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:20:55.7111 Debug Decrypting secret element using Windows DPAPI. 
+2024-05-04 20:20:55.7111 Debug Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2024-05-04 20:20:55.7111 Debug Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2024-05-04 20:20:55.7111 Debug Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2024-05-04 20:20:55.7111 Debug Using key {8313aa54-9031-414f-b184-3c1e07e13fe7} as the default key. 
+2024-05-04 20:20:55.7111 Debug Key ring with default key {8313aa54-9031-414f-b184-3c1e07e13fe7} was loaded during application startup. 
+2024-05-04 20:20:55.8364 Warn Overriding address(es) 'http://api.rscode.site:8888'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+2024-05-04 20:20:55.8508 Info Now listening on: http://[::]:8888 
+2024-05-04 20:20:55.8508 Debug Loaded hosting startup assembly ProductionAppApi 
+2024-05-04 20:20:55.8508 Debug Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2024-05-04 20:20:55.8508 Debug Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2024-05-04 20:20:55.8508 Info Application started. Press Ctrl+C to shut down. 
+2024-05-04 20:20:55.8508 Info Hosting environment: Development 
+2024-05-04 20:20:55.8508 Info Content root path: E:\Api\ProductionMaterialAPI\ProductionMaterialApi 
+2024-05-04 20:20:55.8508 Debug Hosting started 
+2024-05-04 20:20:55.9853 Debug Connection id "0HN3CCROAIAFN" accepted. 
+2024-05-04 20:20:56.0257 Debug Connection id "0HN3CCROAIAFN" started. 
+2024-05-04 20:20:56.0257 Debug Connection id "0HN3CCROAIAFO" accepted. 
+2024-05-04 20:20:56.0257 Debug Connection id "0HN3CCROAIAFO" started. 
+2024-05-04 20:20:56.0257 Debug Connection id "0HN3CCROAIAFO" received FIN. 
+2024-05-04 20:20:56.0257 Debug Connection id "0HN3CCROAIAFN" received FIN. 
+2024-05-04 20:20:56.0966 Debug Connection id "0HN3CCROAIAFN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 20:20:56.0966 Debug Connection id "0HN3CCROAIAFO" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2024-05-04 20:20:56.0982 Debug Connection id "0HN3CCROAIAFO" disconnecting. 
+2024-05-04 20:20:56.0982 Debug Connection id "0HN3CCROAIAFN" disconnecting. 
+2024-05-04 20:20:56.0982 Debug Connection id "0HN3CCROAIAFN" stopped. 
+2024-05-04 20:20:56.0982 Debug Connection id "0HN3CCROAIAFO" stopped. 

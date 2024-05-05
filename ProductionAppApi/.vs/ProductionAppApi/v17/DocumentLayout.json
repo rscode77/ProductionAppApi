@@ -1,0 +1,226 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ProductionAppApi\\ProductionAppApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|e:\\productionappapi\\productionappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RSCODE\\AppData\\Local\\Temp\\.vsdbgsrc\\13a86246f9fc2ca4c9a442ec6878c1d204b4d2491a56de404fe2d8b9ca617ef2\\RegisterDtoValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|E:\\ProductionAppApi\\ProductionAppApi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|E:\\ProductionAppApi\\ProductionAppApi\\productionappapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|solutionrelative:productionappapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|E:\\ProductionAppApi\\ProductionAppApi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBC7453-17A8-4997-A48E-B59DBC9DC962}|ProductionAppApi.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\validators\\logindtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\validators\\registerdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\infrastructure\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\applicationauth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\applicationauth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\mapping\\productionappmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\api\\productionmaterialapi\\infrastructure\\persistance\\productionappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 238,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30447101:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginDtoValidator.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\Validators\\LoginDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\Validators\\LoginDtoValidator.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\Validators\\LoginDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\Validators\\LoginDtoValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T13:01:47.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\RSCODE\\AppData\\Local\\Temp\\.vsdbgsrc\\13a86246f9fc2ca4c9a442ec6878c1d204b4d2491a56de404fe2d8b9ca617ef2\\RegisterDtoValidator.cs",
+              "ToolTip": "C:\\Users\\RSCODE\\AppData\\Local\\Temp\\.vsdbgsrc\\13a86246f9fc2ca4c9a442ec6878c1d204b4d2491a56de404fe2d8b9ca617ef2\\RegisterDtoValidator.cs [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:32:00.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDtoValidator.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\Validators\\RegisterDtoValidator.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\Validators\\RegisterDtoValidator.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\Validators\\RegisterDtoValidator.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\Validators\\RegisterDtoValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T12:21:53.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductionAppApi",
+              "DocumentMoniker": "E:\\ProductionAppApi\\ProductionAppApi\\ProductionAppApi.csproj",
+              "RelativeDocumentMoniker": "ProductionAppApi.csproj",
+              "ToolTip": "E:\\ProductionAppApi\\ProductionAppApi\\ProductionAppApi.csproj",
+              "RelativeToolTip": "ProductionAppApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-05T11:11:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Infrastructure\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Infrastructure\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Infrastructure\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Infrastructure\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T11:04:14.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\RegisterDto.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\RegisterDto.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T10:44:19.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\LoginDto.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\LoginDto.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\ApplicationAuth\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:28:39.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\ProductionAppApi\\ProductionAppApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "E:\\ProductionAppApi\\ProductionAppApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T09:05:55.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ProductionAppApi\\ProductionAppApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\ProductionAppApi\\ProductionAppApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T18:18:08.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ProductionAppApi\\ProductionAppApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ProductionAppApi\\ProductionAppApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAWwFUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:18:04.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductionAppMappingProfile.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\Mapping\\ProductionAppMappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\Mapping\\ProductionAppMappingProfile.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\Mapping\\ProductionAppMappingProfile.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\Mapping\\ProductionAppMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:15:58.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:15:55.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductionAppDbContext.cs",
+              "DocumentMoniker": "E:\\Api\\ProductionMaterialApi\\Infrastructure\\Persistance\\ProductionAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\Api\\ProductionMaterialApi\\Infrastructure\\Persistance\\ProductionAppDbContext.cs",
+              "ToolTip": "E:\\Api\\ProductionMaterialApi\\Infrastructure\\Persistance\\ProductionAppDbContext.cs",
+              "RelativeToolTip": "..\\..\\Api\\ProductionMaterialApi\\Infrastructure\\Persistance\\ProductionAppDbContext.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:12:00.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
